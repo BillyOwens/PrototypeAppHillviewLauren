@@ -112,7 +112,7 @@ $('#page5AJAXButton').bind("click", function(){
 	//http://www.jquery4u.com/demos/ajax/
 	$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
 {
-  tags:"Lionel messi",
+  tags:"stars",
   tagmode: "any",
   format: "json"
 },
